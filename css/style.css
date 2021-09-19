@@ -1,0 +1,214 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600italic,700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "GT Walsheim Pro Condensed";
+	src: url("../fonts/GTWalsheimPro-CondensedBold.woff2") format("woff2"),
+		url("../fonts/GTWalsheimPro-CondensedBold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "GT Walsheim Pro Condensed";
+	src: url("../fonts/GTWalsheimPro-CondensedRegular.woff2") format("woff2"),
+		url("../fonts/GTWalsheimPro-CondensedRegular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "GT Walsheim Pro Cond";
+	src: url("../fonts/GTWalsheimPro-CondensedMedium.woff2") format("woff2"),
+		url("../fonts/GTWalsheimPro-CondensedMedium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Albertus Nova";
+	src: url("../fonts/AlbertusNova-Bold.woff2") format("woff2"), url("../fonts/AlbertusNova-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Albertus Nova";
+	src: url("../fonts/AlbertusNova.woff2") format("woff2"), url("../fonts/AlbertusNova.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: "Nunito", sans-serif;
+	line-height: 1;
+}
+
+/* ----------------------------------------- */
+
+h1 {
+	font-family: "Albertus Nova";
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	text-decoration: line-through underline overline;
+	text-shadow: -1.5px 1.5px 1px #727272;
+	text-transform: uppercase;
+	line-height: 200%;
+	letter-spacing: 8px;
+	word-spacing: 30px;
+}
+
+h2 {
+	font-family: "Albertus Nova", serif;
+	font-style: normal;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 14px;
+	line-height: 120%;
+	color: #8f0303;
+	text-shadow: -6px -5px 1.5px #f53838;
+}
+
+.image {
+	text-align: center;
+}
+
+.text {
+	line-height: 71%;
+	text-align: center;
+	white-space: nowrap;
+	font-family: "GT Walsheim Pro Cond", sans-serif;
+	font-weight: 500;
+}
+
+.verxniiregistr {
+	text-transform: uppercase;
+	color: #0000ff;
+	font-size: 12px;
+	font-weight: 700;
+	text-decoration: line-through;
+}
+
+nav ul {
+	text-indent: 18px;
+	line-height: 140%;
+	font-style: italic;
+}
+
+#soderg {
+	text-indent: 26px;
+	font-size: 22px;
+	font-style: italic;
+	text-shadow: -5px 3px 1.2px #727272;
+}
+
+a {
+	font-family: "Albertus Nova", serif;
+}
+
+.block1 {
+	text-indent: 30px;
+	color: #1eff00;
+}
+
+.block2 {
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+p.sitata {
+	font-family: "GT Walsheim Pro Condensed", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 18px;
+	text-align: right;
+	color: #000;
+}
+
+div a {
+	color: #7e75f1;
+	font-style: normal;
+}
+
+.block3 {
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: underline;
+	line-height: 160%;
+	word-spacing: 10px;
+}
+
+.block4 {
+	font-style: oblique;
+	font-weight: 700;
+	color: rgba(250, 128, 114, 0.5);
+	text-shadow: 3px 2px 3px #b9b2b9;
+}
+
+.block5 {
+	word-spacing: 12px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	text-decoration: overline;
+	line-height: 160%;
+}
+
+.block5 h2 {
+	line-height: 300%;
+	text-decoration: none;
+}
+.footer {
+	color: #ff6347;
+	font-size: 22px;
+	font-style: italic;
+	text-align: center;
+	text-transform: capitalize;
+	white-space: nowrap;
+	text-indent: 150px;
+}
